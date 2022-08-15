@@ -15,6 +15,7 @@
     
     box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
     border-radius: 9px;
+    z-index:2;
 }
  ion-icon { 
     position: absolute;
@@ -81,7 +82,7 @@
     margin-top: 31px;
 }
 .caixaprato{
-    height: 216px;
+    height: 226px;
     width: 414px;    
     top: 60px;
     position: relative;
@@ -95,6 +96,7 @@
     position: relative;
     padding: 14px;
     margin-left: 7px;
+    
 }
 
 .textop1 h1{
@@ -131,7 +133,7 @@
 
     position: relative;
     padding: 14px;
-    z-index: 2;
+    
 }
 
 .textop2 h1{
@@ -168,7 +170,7 @@
 
     position: relative;
     padding: 14px;
-    z-index: 2;
+    
 }
 
 .textop3 h1{
@@ -205,7 +207,7 @@
 
     position: relative;
     padding: 14px;
-    z-index: 2;
+    
 }
 
 .textop4 h1{
@@ -242,7 +244,8 @@
     
     position: relative;
     padding: 14px;
-    z-index: 2;
+    margin-right: 10px;
+    
 }
 
 .textop5 h1{
@@ -288,7 +291,7 @@
     margin-top: 31px;
 }
 .caixabebida{
-    height: 216px;
+    height: 226px;
     width: 414px;      
     top: 17px;
     position: relative;
@@ -302,6 +305,7 @@
     position: relative;
     padding: 14px;
     margin-left: 7px;
+    
 }
 
 .textob1 h1{
@@ -332,7 +336,7 @@
     
     position: relative;
     padding: 14px;
-    z-index: 2;
+    
 }
 
 .textob2 h1{
@@ -363,7 +367,7 @@
     
     position: relative;
     padding: 16px;
-    z-index: 2;
+    
 }
 
 .textob3 h1{
@@ -394,7 +398,7 @@
     
     position: relative;
     padding: 14px;
-    z-index: 2;
+    
 }
 
 .textob4 h1{
@@ -422,10 +426,11 @@
 .bebida5{
     height: 216px;
     width: 174px;
-   
+    margin-right:10px;
     position: relative;
     padding: 14px;
-    z-index: 2;
+
+    
 }
 
 .textob5 h1{
@@ -466,9 +471,8 @@
     
 }
 .caixasobremesa{
-    height: 216px;
+    height: 226px;
     width: 414px;      
-    top: 5px;
     position: relative;
     display: flex;
     overflow-x: scroll;
@@ -480,6 +484,7 @@
     position: relative;
     padding: 14px;
     margin-left: 7px;
+    
     
 }
 
@@ -511,6 +516,7 @@
     
     position: relative;
     padding: 14px;
+    
     
 }
 
@@ -601,10 +607,10 @@
 .sobre5{
     height: 216px;
     width: 174px;
-    
+    margin-right: 10px;
     position: relative;
     padding: 14px;
-    z-index: 2;
+    
 }
 
 .textos5 h1{
@@ -630,7 +636,7 @@
     color: #000000;    
    }
    .fechar{
-    height: 92px;
+    height: 80px;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -639,13 +645,13 @@
     
    }
    .botaofechar {
-    height: 61px;
+    height: 56px;
     width: 364px;
     text-align: center;
     background-color: #CBCBCB;
     position: fixed;
     left: 25px;
-    bottom: 16px;
+    bottom: 10px;
     border-radius: 50px;       
    }
    .botaofechar h1 {
@@ -657,4 +663,23 @@
     color: #FFFFFF;
     margin-top: 5px;
    }
+   .finalizar{
+    height: 61px;
+    width: 364px;
+    text-align: center;
+    background-color: #32b72f;
+    position: fixed;
+    left: 25px;
+    bottom: 16px;
+    border-radius: 50px;
 
+   }
+.finalizar h1 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23.44px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 15px;
+   }

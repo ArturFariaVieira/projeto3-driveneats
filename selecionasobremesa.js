@@ -10,4 +10,12 @@ function selecionasobremesa(classediv){
     divselecionada.classList.add ('selecionado');
     const iconeescondido = document.querySelector('.caixasobremesa .selecionado .escondido');    
     iconeescondido.classList.remove ('escondido');
+
+    const pratosel = document.querySelector('.caixaprato .selecionado');
+    const bebsel = document.querySelector('.caixabebida .selecionado')
+    const sobresel = document.querySelector('.caixasobremesa .selecionado');
+
+    if(pratosel !== null && bebsel !== null && sobresel !== null ){
+        habilitafecharpedido();
+    }
 }
